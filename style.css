@@ -1,0 +1,193 @@
+:root {
+	--dark-blue: hsl(243, 87%, 12%);
+	--desaturated-blue: hsl(238, 22%, 44%);
+	--bright-blue: hsl(224, 93%, 58%);
+	--moderate-cyan: hsl(170, 45%, 43%);
+	--light-graish-blue: hsl(240, 75%, 98%);
+	--light-gray: hsl(0, 0%, 75%);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 100%/1.5;
+	font-weight: 600;
+	text-align: center;
+}
+
+.site {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+header,
+section,
+.main-section-image,
+main,
+footer {
+	width: 90%;
+	margin: 2rem auto;
+}
+
+li {
+	list-style: none;
+}
+
+p {
+	font-family: "Open Sans", "Helvetica Neue";
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+li {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+img {
+	width: 100%;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-container {
+	justify-content: space-between;
+	margin-block: 1em;
+}
+
+.nav-menu {
+	display: flex;
+	flex-direction: row;
+}
+
+#logo {
+	width: 100px;
+}
+
+.nav-item {
+	margin-left: 1em;
+	font-weight: 400;
+}
+
+section > img {
+	object-fit: fill;
+}
+
+section * {
+	margin-block: 1rem;
+}
+
+.text,
+.contact-container {
+	width: 80%;
+	margin: 1rem auto;
+}
+
+.email-input {
+	height: 2rem;
+	border-radius: 5px;
+	border: 1px solid #000;
+	font-weight: 400;
+}
+
+.email-input::placeholder {
+	opacity: 0.35;
+	padding: 1em;
+}
+
+.btn {
+	background-color: var(--bright-blue);
+	color: var(--light-graish-blue);
+	margin-top: 0;
+	height: 2rem;
+	border-radius: 5px;
+	border: transparent;
+}
+
+.main-section {
+	background-color: var(--light-graish-blue);
+}
+
+.main-section-image {
+	background: url("./images/bg-curve-mobile.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main,
+.main-image-container {
+	margin-block: 0 5rem;
+}
+
+main .main-title {
+	font-size: 1rem;
+	margin-block: 2em;
+}
+
+main .text {
+	text-align: start;
+	width: 100%;
+	padding-inline: 1em;
+	margin-bottom: 2em;
+}
+
+.page-link {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.page-link > a {
+	color: var(--moderate-cyan);
+	font-size: 14px;
+	padding: 5px 0;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: solid 0.4px var(--moderate-cyan);
+}
+
+#arrow-icon {
+	width: 1em;
+	margin-left: 5px;
+	float: right;
+}
+
+.card {
+	background-color: white;
+	background-image: url("/images/icon-quotes.svg");
+	background-position-x: 20px;
+	background-position-y: 10px;
+	background-repeat: no-repeat;
+	width: 90%;
+	margin: 2em auto;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+.card-profile-image > img {
+	border-radius: 50%;
+}
+
+.card-profile-image {
+	width: 50px;
+}
+
+.card > p {
+	margin-top: 1em;
+}
