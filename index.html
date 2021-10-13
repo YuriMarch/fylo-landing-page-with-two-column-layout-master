@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/efa6b68cb8.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
@@ -44,7 +45,7 @@
 				</div>
 			</section>
 			<div class="main-section-image">
-				<!-- <img src="./images/bg-curve-mobile.svg" alt="" /> -->
+				<img src="./images/bg-curve-mobile.svg" alt="" />
 			</div>
 			<main class="main-section flex-column">
 				<div class="main-image-container">
@@ -75,13 +76,15 @@
 							<div class="card-profile-image">
 								<img src="./images/avatar-testimonial.jpg" alt="Man profile image" />
 							</div>
-							<p class="avatar-name">Kyle Burton</p>
-							<p class="avatar-position">Founder & CEO, Huddle</p>
+							<div class="avatar-details">
+								<p class="avatar-name align-left">Kyle Burton</p>
+								<p class="avatar-position">Founder & CEO, Huddle</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</main>
-			<section class="cta flex-row">
+			<section class="cta flex-column">
 				<div class="text-container">
 					<h1 class="title cta-title">Get early access today</h1>
 					<p class="text">
@@ -89,7 +92,7 @@
 						you have any questions, our support team would be happy to help you.
 					</p>
 				</div>
-				<div class="email-section">
+				<div class="contact-container flex-column">
 					<input
 						type="email"
 						name="email"
@@ -106,33 +109,35 @@
 				</div>
 				<div class="contact">
 					<ul contact-nav>
-						<li class="contact-item">Phone: +1-543-123-4567</li>
-						<li class="contact-item">example@fylo.com</li>
+						<li class="contact-item">
+							<img src="./images/icon-phone.svg" /> Phone: +1-543-123-4567
+						</li>
+						<li class="contact-item"><img src="./images/icon-email.svg" />example@fylo.com</li>
 					</ul>
 				</div>
 				<div class="links">
-					<ul class="link-nav">
+					<ul class="link-nav align-left">
 						<li class="link-item">About Us</li>
 						<li class="link-item">Jobs</li>
 						<li class="link-item">Press</li>
 						<li class="link-item">Blog</li>
 					</ul>
-					<ul class="link-nav">
+					<ul class="link-nav align-left">
 						<li class="link-item">Contact Us</li>
 						<li class="link-item">Terms</li>
 						<li class="link-item">Privacy</li>
 					</ul>
 				</div>
 				<div class="social-media">
-					<ul class="social-media-nav">
+					<ul class="social-media-nav flex-row">
 						<li class="social-media-item">
-							<img src="./images/icon-facebook.svg" alt="Facebook Logo" />
+							<i class="fab fa-facebook"></i>
 						</li>
 						<li class="social-media-item">
-							<img src="./images/icon-twitter.svg" alt="Twitter Logo" />
+							<i class="fab fa-twitter"></i>
 						</li>
 						<li class="social-media-item">
-							<img src="./images/icon-instagram.svg" alt="Instagram Logo" />
+							<i class="fab fa-instagram"></i>
 						</li>
 					</ul>
 				</div>
