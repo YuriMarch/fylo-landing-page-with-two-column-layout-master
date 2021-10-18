@@ -314,7 +314,62 @@ footer > * {
 		margin-left: 5%;
 	}
 
+	main .text,
 	.text {
 		margin-left: 0;
+		padding: 0;
+	}
+
+	.cta {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.cta .contact-container {
+		flex-direction: column;
+		margin-right: 2em;
+	}
+
+	.cta .contact-container .email-input {
+		max-width: 400px;
+	}
+
+	.cta .contact-container .btn {
+		max-width: 200px;
+	}
+
+	footer {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr 1fr;
+		padding-left: 5%;
+	}
+
+	footer * {
+		margin-left: 0;
+	}
+
+	#footer-logo {
+		grid-column: 1/5;
+		grid-row: 1/2;
+		margin-left: 0;
+	}
+
+	.contact {
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
+
+	.links {
+		grid-column: 2/4;
+		grid-row: 2/3;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.social-media {
+		grid-column: 4/5;
+		grid-row: 2/3;
+		justify-self: start;
 	}
 }
